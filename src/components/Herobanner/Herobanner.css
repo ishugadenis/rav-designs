@@ -1,0 +1,57 @@
+.herobanner{
+background-repeat: no-repeat;
+}
+
+.herobanner h1{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    margin: 0 100px;
+   
+}
+
+.hero-content .horizontal-line{
+  flex: none;
+  height: 1px;
+  background-color: black;
+  width: 50px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+  .hero-content p {
+    margin-bottom: 30px;
+  }
+
+  .hero-content .cta-button .button{
+    flex: none;
+    width: 30px;
+
+  }
+  
+  @media (max-width: 768px) {
+
+    .herobanner h1{
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+
+    .hero-content{
+      align-items: center;
+      text-align: center;
+      width: 60%;
+      height: 100%;   
+  }
+
+  .hero-content .horizontal-line{
+    width: 30px;
+  }
+    }

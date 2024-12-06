@@ -1,0 +1,94 @@
+.about-explanation{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+.about-explanation-img{
+    flex:none;
+    background-image: url(../../assets/model2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    
+   
+}
+.about-craftsmen{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.about-craftsmen-explanation{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+.about-craftsmen-explanation h6{
+  text-align: center;
+}
+.about-craftsmen-explanation p{
+    text-align: center;
+    line-height: 1.8rem;
+    padding: 0 20px;
+  }
+.about-craftsmen-explanation img{
+    flex: none;
+    width: 50px;
+ }
+
+ .about-craftsmen-explanation .horizontal-line{
+    width: 50px;
+    background-color: black
+ }
+.about-craftsmen-img{
+    flex: none;
+    background-image: url(../../assets/model.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.about-explanation-words{
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.8rem;
+    gap: 20px;
+}
+
+.philosophy{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.philosophy-all{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.philosophy-title{
+    margin: 20px 0px;
+}
+.philosophy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    margin: 20px 0px;
+}
+.philosophy-container .horizontal-line{
+    width: 50px;
+}
+.philosophy-container p{
+    text-align: center;
+}

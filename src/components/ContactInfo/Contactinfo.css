@@ -1,0 +1,32 @@
+h6{
+    color: var(--primary-color);
+}
+.contactinfo{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+   padding: 30px 100px;
+
+}
+.underline{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+  .contactinfo{
+    padding: 20px 60px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .underline{
+    margin-bottom: 0px;
+}
+
+.contactinfo li{
+    line-height: 1.8rem;
+    list-style: none;
+}
+}

@@ -1,0 +1,28 @@
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: var(--primary-color);
+
+}
+
+.social-media-links{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.social-media-links img{
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+     .contacts{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+     }
+
+}

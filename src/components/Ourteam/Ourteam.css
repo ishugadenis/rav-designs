@@ -1,0 +1,48 @@
+.ourteam{
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+
+}
+
+.horizontal-line{
+    height: 1px;
+    background-color: black;
+    width: 50px;
+}
+
+.ourteam-container{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.ourteam-individual-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 30px 100px;
+    margin: 20px 0px;
+}
+
+.circle-container {
+    width: 150px; /* Circle size */
+    height: 150px; /* Circle size */
+    border-radius: 50%; /* Makes it a circle */
+    overflow: hidden; /* Ensures image doesn't exceed boundaries */
+    display: flex; /* Centers the image */
+    align-items: center; /* Centers the image */
+    justify-content: center; /* Centers the image */
+    border: 2px solid #f16929; /* Optional: Add a border around the circle */
+    margin-bottom: 20px;
+  }
+
+  .circle-image {
+    width: 100%; /* Ensures the image fits inside */
+    height: 100%; /* Ensures the image fits inside */
+    object-fit: cover; /* Ensures the image covers the circle properly */
+  }
