@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import "../../App.css"
 
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -23,6 +24,7 @@ return (
         <Link className='link' to="/aboutus">About</Link>
         <Link className='link' to="/services">What we do</Link>
         <Link className='link' to="/pricing">Plans & Pricing</Link>
+        <Link className='link' to="/portfolio">Portfolio</Link>
         <Link className='link' to="/contact">Contact</Link>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>

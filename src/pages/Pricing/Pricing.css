@@ -1,0 +1,46 @@
+.pricing .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex: 4;
+}
+
+
+.pricing ul{
+    list-style: none;
+}
+
+.section-package{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    
+}
+.section-package-title{
+    display: flex;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.section-package-subtitle{
+    margin: 10px 0;
+}
+
+.section-package hr{
+    margin: 10px 0;
+    opacity: 20%;
+}
+
+.section-package li{
+    margin: 10px 20px;
+}
+.section-package-pay{
+    color: var(--primary-color);
+}
