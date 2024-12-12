@@ -1,31 +1,24 @@
 import React from 'react'
 import './Pricing.css'
-import HerobannerImage from '../../assets/herobanner.jpg'
+import heroBg from '../../assets/aboutus-hero.jpg'
 import Herobanner from '../../components/Herobanner/Herobanner'
-import packages from '../../constants/data.js'
+import data from '../../constants/data.js'
 
 
 const Pricing = () => {
-
-
-
-console.log(packages[0].pay);
-
-
-
 
 
   return (
     <div className='pricing'>
        <Herobanner
       title="Choose Your Pricing Plan"
-      backgroundImage={HerobannerImage}
+      backgroundImage={heroBg}
       height='40vh'
       display="none"
       />
-      <section>
-      <ul className = 'section'>
-        {packages.map((item, index) => (
+      <section >
+      <div className = 'section'>
+        {data.pricing.map((item, index) => (
           <li className= 'section-package' key={index}> 
           <div className="section-package-title">
           <h4>{item.title}</h4>
@@ -42,7 +35,7 @@ console.log(packages[0].pay);
             </ul>
           </li>
         ))}
-      </ul>
+      </div>
       </section>
       
     </div>

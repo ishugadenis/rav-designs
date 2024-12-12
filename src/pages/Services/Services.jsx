@@ -1,5 +1,5 @@
 import React from 'react'
-import HerobannerImage from '../../assets/herobanner.jpg'
+import heroBg from '../../assets/contact-hero.jpg'
 import './Services.css'
 import Herobanner from '../../components/Herobanner/Herobanner'
 
@@ -8,7 +8,7 @@ const Services = () => {
     <div>
       <Herobanner 
         title="Which Services do you need?"
-        backgroundImage={HerobannerImage}
+        backgroundImage={heroBg}
         height='40vh'
         display="none"
         subtitle="We take pride in the services we offer and do everything ourselves, nothing is ever secretly outsourced or developed overseas (which is all too common these days). We do work with local service providers, 

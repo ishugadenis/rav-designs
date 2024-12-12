@@ -52,11 +52,10 @@
  .homebody-services{
     flex-direction: column;
     text-align: center;
-    padding: 20px 60px;
-    gap: 30px;
-        }
+    gap: 20px;
+}
 .homebody-services-container{
-    margin: 20px;
+    margin: 0 10px;
 }
 
 .homebody-services-title{
@@ -72,14 +71,15 @@
     }
 
 .homebody-signal{
+    padding: 10px 0 0 0;
     flex-direction: column;
-    padding: 20px 60px;
     align-items: center;
     justify-content: center;
     gap: 30px;
 
 }
 .home-signal-explanation{
+    padding: 0 10px;
     width: 100%;
     text-align: center;
     

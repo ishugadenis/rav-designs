@@ -22,15 +22,29 @@
    padding-left: 10px;
 }
 .contact-form .message-input{
+    text-align: start;
     position: relative;
     height: 250px;
-  
 }
 .contact-form .message-input::placeholder{
     position: absolute;
     top: 10px;
     left: 10px;
 }
+
 .contact-map{
     flex: 1;
+}
+
+@media (max-width: 768px) {
+
+    .contact-section{
+        flex-direction: column;
+    } 
+    .contact-form{
+        width: 100%;
+    }
+    .contact-map{
+        width: 100%;
+    }
 }

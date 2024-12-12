@@ -1,0 +1,28 @@
+.design-portfolio{
+    width: 100%;
+    column-count: 4; /* Number of columns */
+    column-gap: 20px; /* Space between columns */
+    padding: 20px;
+}
+
+.design-portfolio img{
+    width: 100%;
+    margin: 0 0 10px 0;
+    display: block;
+    box-shadow: 3px 3px rgb(255, 255, 255);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.design-portfolio img:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+
+    .design-portfolio{
+        column-count: 1; /* Number of columns */
+    }
+}

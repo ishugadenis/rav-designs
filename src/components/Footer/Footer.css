@@ -66,3 +66,49 @@
 .links-column a:hover{
   color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+
+.flashscreen{
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flashscreen-defination {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.flashscreen-buttons {
+  flex-direction: column; 
+  gap: 10px; 
+  margin-bottom: 15px;
+}
+
+.deals-button {
+  padding: 5px 80px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.links{
+  column-count: 2;
+  display: block;                  
+  gap: 15px;
+  
+}
+
+.links-column{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+}

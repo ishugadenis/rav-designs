@@ -1,6 +1,6 @@
 import React from 'react'
 import './Homebody.css'
-import HerobannerImage from '../../assets/herobanner.jpg'
+import heroBg from '../../assets/home-hero.jpg'
 import bulb from '../../assets/bulb.png'
 import monitor from '../../assets/monitor.png'
 import pen from '../../assets/pen-tool.png'
@@ -13,10 +13,11 @@ const Homebody = () => {
     <div className='homebody'>
         <Herobanner 
         title="Empowering Your Business with a Strong Brand Identity"
-        backgroundImage={HerobannerImage}
-        height='80vh'
+        backgroundImage={heroBg}
+        // height='80vh'
         display="auto"
         subtitle="We create innovative logos, brand strategies, and marketing materials that set your brand apart."
+        color='white'
         />
         <section className="homebody-services">
             <div className="homebody-services-container">

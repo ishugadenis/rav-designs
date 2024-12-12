@@ -1,5 +1,5 @@
 import React from 'react'
-import HerobannerImage from '../../assets/herobanner.jpg'
+import heroBg from '../../assets/aboutus-hero.jpg'
 import Bulb from '../../constants/images'
 import './Aboutus.css'
 import Herobanner from '../../components/Herobanner/Herobanner'
@@ -11,7 +11,7 @@ const Aboutus = () => {
     <div className='about'>
       <Herobanner
       title="Who We Are"
-      backgroundImage={HerobannerImage}
+      backgroundImage={heroBg}
       height='40vh'
       display="none"
       subtitle="We lead with a commitment to quality and consistency across our global network, bringing a passion for 
@@ -20,10 +20,8 @@ const Aboutus = () => {
       <section className="about-explanation">
         <div className="about-explanation-img"></div>
          <div className="about-explanation-words">
-          <p>Ovin Group is a dedicated Graphic Design, Branding, Web Design and Development studio based in Kenya, East Africa. It is focused on servicing businesses from Kenya and beyond. Ovin Group provides stunning, memorable 
-            brands and beautifully intuitive websites that are not only mobile-friendly but that rank on major search engines.</p>
-          <p>​Whilst being based in Kenya and focused on local clients, we service clients in every corner of the Globe. Even though many of our long-term returning clients are thousands of kilometers away, spread out across the world, we are willing to travel when it’s needed to start and deliver a project. With careful planning and good, open communication working remotely
-             (with the use of email, Skype, and phone calls) runs the same as any project where businesses are literally around the corner.</p>
+          <p>Ravtech Designs is a dedicated Graphic Design, Branding, Web Design, and Development studio based in Kenya, East Africa. It is focused on servicing businesses from Kenya and beyond. Ravtech Designs provides stunning, memorable brands and beautifully intuitive websites that are not only mobile-friendly but that rank on major search engines.</p>
+          <p>Whilst being based in Kenya and focused on local clients, we service clients in every corner of the globe. Even though many of our long-term returning clients are thousands of kilometers away, spread out across the world, we are willing to travel when it’s needed to start and deliver a project. With careful planning and good, open communication, working remotely (with the use of email, Skype, and phone calls) runs the same as any project where businesses are literally around the corner.</p>
          </div>
       </section>
       <section className="about-craftsmen">

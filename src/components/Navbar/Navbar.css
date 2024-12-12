@@ -32,10 +32,17 @@
     letter-spacing: 2px;
     font-size: 1rem;
   }
-  
+
   .navbar-links .link:hover {
     color: #f39c12;
   }  
+  .navbar-links .active{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  
+
   
   .navbar-toggle {
     display: none;

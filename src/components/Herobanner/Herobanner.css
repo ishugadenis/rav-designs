@@ -1,5 +1,6 @@
 .herobanner{
 background-repeat: no-repeat;
+height: 80vh;
 }
 
 .herobanner h1{
@@ -20,8 +21,8 @@ background-repeat: no-repeat;
 
 .hero-content .horizontal-line{
   flex: none;
-  height: 1px;
-  background-color: black;
+  height: 3px;
+  /* background-color: black; */
   width: 50px;
   padding: 0;
   margin: 20px 0;
@@ -38,6 +39,11 @@ background-repeat: no-repeat;
   }
   
   @media (max-width: 768px) {
+    .herobanner{
+      width: 100%;
+      background-repeat: no-repeat;
+      height: 60vh;
+      }
 
     .herobanner h1{
       font-size: 1.5rem;
@@ -45,13 +51,19 @@ background-repeat: no-repeat;
     }
 
     .hero-content{
+      display: flex;
+      flex-direction: column;
       align-items: center;
       text-align: center;
-      width: 60%;
-      height: 100%;   
+      justify-content: center;
+      width: 100%; 
+      margin: 0; 
+      padding: 0 20px; 
   }
 
   .hero-content .horizontal-line{
     width: 30px;
   }
+
+  
     }

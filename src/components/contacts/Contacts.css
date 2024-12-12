@@ -9,16 +9,18 @@
 
 .social-media-links{
     display: flex;
-    gap: 8px;
+    gap: 10px;
     
 }
 
-.social-media-links img{
-  height: 20px;
+.social-media-links i{
+     height: 15px;
+     cursor: pointer;
 }
 
 @media (max-width: 768px) {
-     .contacts{
+.contacts{
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;

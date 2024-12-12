@@ -1,10 +1,10 @@
+
 .pricing .section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    flex: 4;
+    gap: 10px;
 }
 
 
@@ -12,7 +12,7 @@
     list-style: none;
 }
 
-.section-package{
+.pricing .section-package{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,8 +39,45 @@
 }
 
 .section-package li{
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 .section-package-pay{
     color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .pricing .section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        
+    }
+    
+    .pricing .section-package{
+        width: 100%;
+       justify-content: center; 
+        align-items: flex-start;
+    }
+    .section-package-title{
+        padding: 10px 30px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .section-package-subtitle{
+        padding: 10px 30px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .section-package hr{
+        margin: 10px 0;
+        opacity: 20%;
+    }
+    .section-package-pay{
+        padding: 10px 30px;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }

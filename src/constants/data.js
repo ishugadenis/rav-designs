@@ -1,3 +1,42 @@
+import images from './images';
+
+const projects =[
+    {
+       title: 'Rav-Gym app',
+       image: images.gymApp
+    },
+    {
+        title: 'Gericht Restaurant',
+        image: images.gericht
+        
+     }
+];
+
+const graphics =[
+    {
+       image: images.pizzaSm
+    },
+    {
+        image: images.cheffSm
+    },
+    {
+        image: images.venstraMp
+    },
+    {
+        image: images.gameMp
+    },
+    {
+        image: images.lexyCare
+    },
+    {
+        image: images.logoMp
+    },
+
+
+    
+]
+
+
 
 
 const pricing =[
@@ -68,4 +107,4 @@ const pricing =[
 }
 ];
 
-export default pricing;
+export default {pricing, projects, graphics};

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import Herobanner from '../../components/Herobanner/Herobanner'
+import heroBg from '../../assets/contact-hero.jpg'
 
 
 const Contact = () => {
@@ -9,7 +10,7 @@ const Contact = () => {
     <div className='contact'>
        <Herobanner
       title="Talk To Us:"
-      // backgroundImage={HerobannerImage}
+      backgroundImage={heroBg}
       height='40vh'
       display="none"
       subtitle="Talk To Us: Use the form below when your ready to talk about your next project."
