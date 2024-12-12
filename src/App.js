@@ -5,7 +5,7 @@ import './App.css';
 import Contactinfo from './components/ContactInfo/Contactinfo.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Homebody from './components/Homebody/Homebody.jsx';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
 import Contact from './pages/Contact/Contact.jsx';
 import Aboutus from './pages/Aboutus/Aboutus.jsx';
 import Services from './pages/Services/Services.jsx';
