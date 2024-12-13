@@ -22,10 +22,10 @@ const Pricing = () => {
         {data.pricing.map((item, index) => (
           <li className= 'section-package' key={index}> 
           <div className="section-package-title">
-          <h4>{item.title}</h4>
+          <h5>{item.title}</h5>
           </div>
-            <h5 className='section-package-subtitle'>{item.subTitle}</h5>
-            <h4 className='section-package-pay'>{item.pay}</h4>
+            {/* <h5 className='section-package-subtitle'>{item.subTitle}</h5> */}
+            <h5 className='section-package-pay'>{item.pay}</h5>
             <ul className='services'>
               {item.service.map((service, index)=> (
                 <li key={index}>{service}

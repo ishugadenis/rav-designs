@@ -47,6 +47,8 @@
 }
 .section-package-pay{
     color: var(--primary-color);
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {

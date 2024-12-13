@@ -25,8 +25,11 @@
       align-items: center;
       gap: 15px;
      }
-     .social-media-links i{
-       font-size: 15px;
-     }
+.social-media-links i{
+  font-size: 15px;
+}
+.contacts a{
+  font-size: 0.8rem
+}
 
 }
