@@ -15,6 +15,7 @@ const Pricing = () => {
       backgroundImage={heroBg}
       height='40vh'
       display="none"
+      overlay='rgba(232, 232, 232, 0.64)'
       />
       <section >
       <div className = 'section'>

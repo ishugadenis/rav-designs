@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    console.log(isOpen);
 };
 
 
@@ -23,13 +24,18 @@ return (
         <img src="/assets/logo.png" alt="logo" className="logo" />
         </Link>
       </div>
-      <div className={`navbar-links ${isOpen ? "active" : ""}`}>
-        <Link className={`link ${location.pathname === '/' ? 'active' : ''}` } to="/">Home</Link>
-        <Link className={`link ${location.pathname === '/aboutus' ? 'active' : ''}` } to="/aboutus">About</Link>
-        <Link className={`link ${location.pathname === '/services' ? 'active' : ''}` } to="/services">What we do</Link>
-        <Link className={`link ${location.pathname === '/pricing' ? 'active' : ''}` } to="/pricing">Plans & Pricing</Link>
-        <Link className={`link ${location.pathname === '/portfolio' ? 'active' : ''}` } to="/portfolio">Portfolio</Link>
-        <Link className={`link ${location.pathname === '/contact' ? 'active' : ''}` } to="/contact">Contact</Link>
+      <div className={`navbar-links ${ isOpen ? "active" : ""}`}>
+        <Link className={`link ${location.pathname === '/' ? 'active' : ''}` } to="/" onClick={toggleMenu}>Home</Link>
+        <hr />
+        <Link className={`link ${location.pathname === '/aboutus' ? 'active' : ''}` } to="/aboutus" onClick={toggleMenu}>About us</Link>
+        <hr />
+        <Link className={`link ${location.pathname === '/services' ? 'active' : ''}` } to="/services" onClick={toggleMenu}>What we do</Link>
+        <hr />
+        <Link className={`link ${location.pathname === '/pricing' ? 'active' : ''}` } to="/pricing" onClick={toggleMenu}>Plans & Pricing</Link>
+        <hr />
+        <Link className={`link ${location.pathname === '/portfolio' ? 'active' : ''}` } to="/portfolio" onClick={toggleMenu}>Portfolio</Link>
+        <hr />
+        <Link className={`link ${location.pathname === '/contact' ? 'active' : ''}` } to="/contact" onClick={toggleMenu}>Contact</Link>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
         <span className="bar"></span>

@@ -84,6 +84,11 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     padding: 30px 20px;
     margin: 20px 0px;
+    transition: 0.2s;
+}
+
+.philosophy-container:hover{
+    transform: scale(1.05);
 }
 .philosophy-container .horizontal-line{
     width: 50px;

@@ -16,6 +16,7 @@ const Portfolio = () => {
       display="none"
       subtitle="At Ravtech Designs, we help businesses big and small achieve success with their online marketing. We specialize in creating logos and building websites that make it easy for people to engage and do business with you, while ensuring your brand is easy to find online.
       Based in Nairobi, we proudly provide design solutions for the entire region of Kenya and beyond"
+      overlay='rgba(232, 232, 232, 0.64)'
       />
       <section className='portfolio'>
         <h3>Some Of Our Recent Projects</h3>

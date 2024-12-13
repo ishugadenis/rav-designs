@@ -11,12 +11,14 @@ import Aboutus from './pages/Aboutus/Aboutus.jsx';
 import Services from './pages/Services/Services.jsx';
 import Pricing from './pages/Pricing/Pricing.jsx';
 import Portfolio from './pages/Portfolio/Portfolio.jsx';
+import ScrollToTop from './components/scrollToTop.js';
 
 const App = () => (
   
     <div className="App">
      <Contacts />
      <Navbar />
+      <ScrollToTop /> {/* Scrolls to top on route change */}
       <Routes>
         <Route path="/" element={<Homebody />} />
         <Route path="/aboutus" element={<Aboutus />} />
@@ -27,6 +29,9 @@ const App = () => (
       </Routes>     
      <Contactinfo />
      <Footer />
+     <div className='app-rights'>
+      <p>© 2024 Ravtech designs. All Rights Reserved.</p>
+     </div>
     </div>
     
   );

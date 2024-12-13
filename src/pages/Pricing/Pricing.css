@@ -18,6 +18,10 @@
     align-items: center;
     flex: 1;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+.pricing .section :hover{
+    transform: scale(1.05); 
     
 }
 .section-package-title{
@@ -52,12 +56,13 @@
         align-items: center;
         justify-content: center;
         gap: 15px;
+        padding: 0 10px;
         
     }
     
     .pricing .section-package{
         width: 100%;
-       justify-content: center; 
+        justify-content: center; 
         align-items: flex-start;
     }
     .section-package-title{

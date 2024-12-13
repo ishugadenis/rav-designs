@@ -16,6 +16,7 @@ const Aboutus = () => {
       display="none"
       subtitle="We lead with a commitment to quality and consistency across our global network, bringing a passion for 
       client success and a purpose to serve and improve the communities in which companies operate."
+      overlay='rgba(232, 232, 232, 0.64)'
       />
       <section className="about-explanation">
         <div className="about-explanation-img"></div>

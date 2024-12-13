@@ -14,7 +14,6 @@
 }
 
 .social-media-links i{
-     height: 15px;
      cursor: pointer;
 }
 
@@ -25,6 +24,9 @@
       flex-direction: column;
       align-items: center;
       gap: 15px;
+     }
+     .social-media-links i{
+       font-size: 15px;
      }
 
 }

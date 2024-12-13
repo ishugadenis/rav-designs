@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -12,23 +13,23 @@ const Footer = () => {
             Graphic Design or digital strategy. We’re looking forward to hearing from you.</p>  
         </div>
         <div className="flashscreen-buttons">
-           <a href="/portfolio" className="deals-button button">Know Us</a>
-           <a href="/portfolio" className="deals-button button">Contact Us</a>
+           <Link to="/aboutus" className="deals-button button">Know Us</Link>
+           <Link to="/contact" className="deals-button button">Contact Us</Link>
         </div>
       </div>
       <div className="horizontal-line"></div>
       <div className="links">
         <div className="links-column">
             <h6>Get Started</h6>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#contact">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/aboutus">About</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/contact">Contact</Link>
         </div>
         <div className="links-column">
             <h6>Products</h6>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#services">Services</a>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/services">Services</Link>
             <a href="#affiiates">Affiliates</a>
             <a href="#buk">Bulk Orders</a>
         </div>

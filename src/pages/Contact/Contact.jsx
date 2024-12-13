@@ -8,12 +8,13 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-       <Herobanner
+      <Herobanner
       title="Talk To Us:"
       backgroundImage={heroBg}
       height='40vh'
       display="none"
       subtitle="Talk To Us: Use the form below when your ready to talk about your next project."
+      overlay='rgba(232, 232, 232, 0.64)'
       />
       <section>
         <div className="contact-section">

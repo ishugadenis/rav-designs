@@ -31,6 +31,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1rem;
+    
   }
 
   .navbar-links .link:hover {
@@ -56,12 +57,12 @@
     background-color: white;
     margin: 3px 0;
   }
-  
+  .navbar-links hr{
+    display: none;
+  }
   /* Responsive Styles */
   @media (max-width: 768px) {
-    .navbar{
-     
-    }
+
 
     .navbar-links {
       display: none;
@@ -69,10 +70,14 @@
       gap: 10px;
       position: absolute;
       top: 60px;
-      right: 20px;
-      background-color: #333;
+      right: 0px;
+      height: 60vh;
+      width: 70%;
+      background-color: #ffffff;
+      color: var(--secondry-color);
       padding: 10px 20px;
-      border-radius: 5px;
+      z-index: 1;
+      animation: slideInFromRight 0.8s ease-out forwards;
     }
   
     .navbar-links.active {
@@ -82,5 +87,29 @@
     .navbar-toggle {
       display: flex;
     }
+
+    .navbar-links hr{
+      display: flex;
+      width: 100%;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.216);
+    }
+
+    .navbar-links .link {
+      color: var(--secondry-color);
+    }
+
+    /* Slide-in animation from the right */
+    @keyframes slideInFromRight {
+      0% {
+        transform: translateX(100%); /* Off-screen to the right */
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0); /* Back to position */
+        opacity: 1;
+      }
+    }
+    
   }
   
