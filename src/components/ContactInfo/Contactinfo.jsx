@@ -1,19 +1,23 @@
-import React from 'react';
-import './Contactinfo.css';
+import React from "react";
+import "./Contactinfo.css";
 
 const Contactinfo = () => {
   return (
     <section>
-      <div className='contactinfo'>
+      <div className="contactinfo">
         <div className="contactinfo-title">
           <h6>Telephone</h6>
           <hr></hr>
-          <p>+254(0)799 768 112</p>
+          <a href="tel:+254799768112" target="_blank">
+            +254(0)799 768 112
+          </a>
         </div>
         <div className="contactinfo-title">
           <h6>Email Address</h6>
           <hr></hr>
-          <p>ravtech@gmail.com</p>
+          <a href="mailto:denisishuga@gmail.com" target="_blank">
+            ravtech@gmail.com
+          </a>
         </div>
         <div className="contactinfo-title">
           <h6>Opening Hours</h6>
@@ -23,10 +27,10 @@ const Contactinfo = () => {
             <li>Saturday: 8:30 am – 6:00 pm</li>
             <li>Sunday: Closed</li>
           </ul>
-        </div>  
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contactinfo
+export default Contactinfo;
