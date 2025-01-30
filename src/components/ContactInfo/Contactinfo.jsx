@@ -8,14 +8,18 @@ const Contactinfo = () => {
         <div className="contactinfo-title">
           <h6>Telephone</h6>
           <hr></hr>
-          <a href="tel:+254799768112" target="_blank">
+          <a href="tel:+254799768112" target="_blank" rel="noopener noreferrer">
             +254(0)799 768 112
           </a>
         </div>
         <div className="contactinfo-title">
           <h6>Email Address</h6>
           <hr></hr>
-          <a href="mailto:denisishuga@gmail.com" target="_blank">
+          <a
+            href="mailto:denisishuga@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             ravtech@gmail.com
           </a>
         </div>

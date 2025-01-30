@@ -30,16 +30,13 @@ const projects = [
 
 const graphics = [
   {
+    image: images.rollUp,
+  },
+  {
     image: images.pizzaSm,
   },
   {
     image: images.cheffSm,
-  },
-  {
-    image: images.venstraMp,
-  },
-  {
-    image: images.gameMp,
   },
   {
     image: images.lexyCare,
@@ -64,6 +61,9 @@ const graphics = [
   },
   {
     image: images.magazine,
+  },
+  {
+    image: images.businessCard,
   },
 ];
 

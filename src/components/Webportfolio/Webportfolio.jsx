@@ -9,9 +9,9 @@ const Webportfolio = () => {
         {data.projects.map((project, index) => (
           <div key={index}>
             <div className="project-container">
-              <a href={project.link} target="_blank">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img src={project.image} alt="" />
-                <a className="project-title">{project.title}</a>
+                <p className="project-title">{project.title}</p>
               </a>
             </div>
           </div>

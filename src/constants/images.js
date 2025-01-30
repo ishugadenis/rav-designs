@@ -19,6 +19,8 @@ import vplusIg from "../assets/vplusIg.jpg";
 import hoodie from "../assets/hoodie.jpg";
 import toteBag from "../assets/toteBag.jpg";
 import magazine from "../assets/Magazine.jpg";
+import businessCard from "../assets/businessCard.jpg";
+import rollUp from "../assets/rollUp.jpg";
 
 export default {
   bulb,
@@ -42,4 +44,6 @@ export default {
   hoodie,
   toteBag,
   magazine,
+  businessCard,
+  rollUp,
 };
