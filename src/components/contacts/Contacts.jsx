@@ -5,12 +5,12 @@ const Contacts = () => {
   return (
     <div className="contacts">
       <a
-        href="tel:+254799768112"
+        href="tel:+254753982838"
         className="phone"
         target="_blank"
         rel="noopener noreferrer"
       >
-        +254 (0)799 768 112 | E: ravtech@gmail.com
+        +254 (0)753 982 838 | E: ravtechdesigns@gmail.com
       </a>
       <div className="social-media-links">
         <a

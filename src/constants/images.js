@@ -21,6 +21,7 @@ import toteBag from "../assets/toteBag.jpg";
 import magazine from "../assets/Magazine.jpg";
 import businessCard from "../assets/businessCard.jpg";
 import rollUp from "../assets/rollUp.jpg";
+import busPoster from "../assets/Busshelter-poster.jpg";
 
 export default {
   bulb,
@@ -46,4 +47,5 @@ export default {
   magazine,
   businessCard,
   rollUp,
+  busPoster
 };

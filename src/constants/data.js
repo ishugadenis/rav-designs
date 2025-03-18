@@ -65,6 +65,9 @@ const graphics = [
   {
     image: images.businessCard,
   },
+  {
+    image: images.busPoster,
+  },
 ];
 
 const pricing = [

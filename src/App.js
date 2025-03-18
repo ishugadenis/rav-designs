@@ -31,7 +31,7 @@ const App = () => (
     <Contactinfo />
     <Footer />
     <div className="app-rights">
-      <p>© 2024 Ravtech designs. All Rights Reserved.</p>
+      <p>© 2025 Ravtech designs. All Rights Reserved.</p>
     </div>
   </div>
 );
